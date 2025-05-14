@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kebun Binatang Nusantara</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-green-900 font-sans">
+
+  <header class="flex justify-between items-center px-8 py-6 border-b border-green-300 bg-green-100 shadow">
+    <div class="text-2xl font-bold tracking-wide">Kebun Binatang Nusantara</div>
+    <nav class="space-x-6 hidden md:flex text-green-800">
+      <a href="#tentang" class="hover:text-orange-600">Tentang</a>
+      <a href="#satwa" class="hover:text-orange-600">Satwa</a>
+      <a href="#testimoni" class="hover:text-orange-600">Testimoni</a>
+      <a href="login.html" class="text-sm bg-green-800 text-white px-4 py-2 rounded-lg hover:opacity-90 transition">Login Admin</a>
+    </nav>
+  </header>
+
+  <section class="text-center px-6 py-24 bg-green-100">
+    <h1 class="text-5xl font-bold leading-tight mb-6">Jelajahi Keajaiban Alam di <span class="text-orange-600">Kebun Binatang Nusantara</span></h1>
+    <p class="text-xl text-green-700 mb-8">Temukan lebih dari 200 spesies satwa dari seluruh dunia!</p>
+    <a href="#kunjungan" class="bg-orange-600 text-white px-8 py-3 rounded-xl font-medium hover:opacity-90 transition">Rencanakan Kunjungan</a>
+  </section>
+
+  <section id="tentang" class="py-20 bg-white text-center px-6">
+    <h2 class="text-3xl font-semibold mb-4">Tentang Kami</h2>
+    <p class="max-w-3xl mx-auto text-lg text-green-800">
+      Sejak 1985, Kebun Binatang Nusantara telah menjadi rumah bagi berbagai spesies langka dan eksotis. Kami berkomitmen pada edukasi, konservasi, dan rekreasi keluarga.
+    </p>
+  </section>
+
+  <section id="satwa" class="py-20 text-center px-6 bg-green-50">
+    <h2 class="text-3xl font-semibold mb-6">Satwa Unggulan</h2>
+    <ul class="max-w-2xl mx-auto space-y-3 text-left text-green-900 text-lg">
+      <li>🦁 Singa Afrika</li>
+      <li>🐘 Gajah Sumatera</li>
+      <li>🦜 Burung Macaw</li>
+      <li>🐧 Penguin Humboldt</li>
+    </ul>
+  </section>
+
+  <section id="testimoni" class="py-20 bg-white px-6">
+    <h2 class="text-3xl font-semibold text-center mb-10">Apa Kata Pengunjung</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-green-50 p-6 rounded-xl shadow text-left">
+        <p>"Keluarga kami sangat menikmati tur malam hari. Anak-anak senang sekali melihat harimau!"</p>
+        <div class="mt-4 text-sm text-green-700">– Lestari, ibu rumah tangga</div>
+      </div>
+      <div class="bg-green-50 p-6 rounded-xl shadow text-left">
+        <p>"Tempat ini sangat edukatif dan bersih. Cocok untuk wisata sekolah!"</p>
+        <div class="mt-4 text-sm text-green-700">– Pak Anton, guru biologi</div>
+      </div>
+      <div class="bg-green-50 p-6 rounded-xl shadow text-left">
+        <p>"Saya suka konsep konservasinya. Menambah wawasan sekaligus refreshing."</p>
+        <div class="mt-4 text-sm text-green-700">– Winda, mahasiswa</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kunjungan" class="py-20 px-6 text-center bg-green-100">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-6">Form Kunjungan</h2>
+      <form class="bg-white p-8 rounded-xl shadow space-y-4">
+        <input type="text" placeholder="Nama Lengkap" class="w-full border px-4 py-3 rounded-lg focus:ring-2 focus:ring-orange-500" required />
+        <input type="date" class="w-full border px-4 py-3 rounded-lg focus:ring-2 focus:ring-orange-500" required />
+        <textarea placeholder="Jumlah peserta, tujuan kunjungan..." class="w-full border px-4 py-3 rounded-lg focus:ring-2 focus:ring-orange-500" rows="4" required></textarea>
+        <button type="submit" class="bg-orange-600 text-white px-6 py-3 rounded-lg hover:opacity-90 transition">
+          Kirim
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-green-600 text-sm bg-white">
+    &copy; 2025 Kebun Binatang Nusantara. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>

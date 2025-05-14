@@ -1,0 +1,42 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0fdf4;
+  color: #14532d;
+}
+
+.bg-green-50 {
+  background-color: #f0fdf4;
+}
+
+.bg-green-100 {
+  background-color: #dcfce7;
+}
+
+.text-green-900 {
+  color: #14532d;
+}
+
+.text-green-800 {
+  color: #166534;
+}
+
+.text-green-700 {
+  color: #15803d;
+}
+
+.border-green-300 {
+  border-color: #86efac;
+}
+
+.bg-orange-600 {
+  background-color: #ea580c;
+}
+
+.text-orange-600 {
+  color: #ea580c;
+}
+
+.focus\:ring-orange-500:focus {
+  --tw-ring-color: #f97316;
+}
